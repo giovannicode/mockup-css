@@ -1,0 +1,18 @@
+/**** SETTINGS ***/
+
+// Base settings
+$base-font-family: sans-serif;
+$base-color: hsl(0, 0%, 35%);
+$base-color-light: lighten($base-color, 5%);
+$base-color-dark: darken($base-color, 5%);
+
+// RESPONSIVE/ADAPTIVE SETTINGS;
+$mobile-large-width: 500px;
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import '_forms';
