@@ -1,0 +1,61 @@
+.mockup-body {
+   margin: 2px;
+   font-family: sans-serif;
+   color: hsl(0, 0%, 20%);
+
+}
+
+.mockup-body ul {
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.mockup-body ul li{
+   display: inline;
+   margin: 2px;
+}
+
+.mockup-body a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.mockup-body a:hover {
+   text-decoration: underline;
+}
+
+.mockup-body button {
+   background: none;
+   border: 2px solid hsl(0, 0%, 55%);
+   border-radius: 5px;
+   margin: 2px;
+   padding: 2px;
+}
+
+.mockup-body button:hover {
+   background: hsl(0, 0%, 85%);
+}
+
+.mockup-box {
+   border: 2px solid hsl(0, 0%, 55%);
+   border-radius: 5px;
+   margin: 2px;
+   padding: 2px;
+}
+
+.category-box {
+   width: 300px;
+   float: left;
+}
+
+.display-block {
+   display: block;
+}
+
+.display-none {
+   display: none;
+}
+
+.mockup-body .active{
+   background: hsl(0, 0%, 65%);
+}

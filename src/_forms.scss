@@ -78,6 +78,10 @@ form.mango-form-vertical {
 	@extend %textbox;
       }
     }
+    span {
+      color: red;
+      float: right;
+    }
   }
 
   button[type="submit"] {

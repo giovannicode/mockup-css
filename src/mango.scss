@@ -2,12 +2,20 @@
 
 // Base settings
 $base-font-family: sans-serif;
-$base-color: hsl(0, 0%, 35%);
+$base-color: hsla(185, 100%, 25%, 1);
 $base-color-light: lighten($base-color, 5%);
 $base-color-dark: darken($base-color, 5%);
 
 // RESPONSIVE/ADAPTIVE SETTINGS;
 $mobile-large-width: 500px;
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v17/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
 
 
 * {
@@ -15,4 +23,4 @@ $mobile-large-width: 500px;
   padding: 0px;
 }
 
-@import '_forms';
+@import 'inputs';
