@@ -85,17 +85,28 @@
     border-radius: 5px;
     color: white;
     font-weight: bold;
+
+  &:active
+  {
+    background-color: black;
+  }
 }
 
 .mango-button{
-    display: block;
-    background-color: $base-color;
-    border: none;
-    width: 100px;
-    height: 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
+  display: block;
+  background-color: $base-color;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  float: right;
+
+  &:active
+  {
+    background-color: black;
+  }
 }
 
 .mango-modal-background {
@@ -119,6 +130,17 @@
   display: none;
 }
 
+.mango-close {
+  color: $base-color;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+
+  &:hover{
+    text-shadow: 2px 2px 2px #aaaaaa;
+    cursor: pointer;
+  }
+}
 
 .mango-modal{
   background-color: white;
