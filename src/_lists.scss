@@ -1,0 +1,31 @@
+.mango-list {
+  .title {
+    color: white;
+    background-color: $base-color;
+    padding: 4px;
+  }
+  ul li{
+    list-style-type: none;
+   
+    a{
+      box-sizing: border-box;
+      text-decoration: none;
+      color: hsl(0, 0%, 20%);
+      display: block;
+      height: 40px;
+      padding: 4px;
+      border-bottom: 1px solid hsl(0, 0%, 80%);
+
+      &:hover{
+        background-color: $base-color;
+        color: white;
+      }
+    }
+  }
+}
+
+.category-group
+{
+  width: 300px;
+  margin: 30px;
+}

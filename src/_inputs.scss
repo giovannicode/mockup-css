@@ -44,6 +44,64 @@
   }
 }
 
+.mango-box{
+ /* box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  background-color: hsl(0, 0%, 96%);
+  padding-left: 10px;*/
+
+}
+
+
+.mango-tab{
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  color: $base-color; 
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: black;
+
+  &.active{
+    background-color: $base-color;
+    color: white;
+  }
+}
+
+.mango-parent{
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  background-color: hsl(0, 0%, 96%);
+}
+
+.mango-post{
+  box-sizing: border-box;
+  height: 150px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 2px;
+
+  h3{
+    display: block;
+    padding: 5px;
+    font-weight: normal;
+    background-color: $base-color;
+    color: white;
+  }
+}
+
+.posts_view{
+}
+
+.view_holder{
+  padding: 20px;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: black;
+}
 
 
 .mango-input-error{

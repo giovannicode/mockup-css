@@ -21,6 +21,17 @@ $mobile-large-width: 500px;
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto';
+}
+
+.mango-body{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  background-color: hsl(0, 0%, 96%);
+
 }
 
 @import 'inputs';
+@import 'lists';
